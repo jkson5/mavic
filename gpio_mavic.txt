@@ -1,0 +1,9 @@
+gpio:
+
+6,7,8,9 - sdr or wi-fi switch
+145 - RED led on core board (close to pair button)
+146 - GREEN led on core board (close to pair button)
+228 - reset for ULTRASONIC chip
+229 - power for ULTRASONIC
+162 - pair button
+199 - test sdr enable?
