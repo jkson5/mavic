@@ -1,0 +1,23 @@
+getevent | busybox grep '5: 0003 0001' //right stick horizontal position example
+
+
+‘5: 0003 0001’ // right stick horizontal
+‘5: 0003 0000’ // right stick vertical
+‘4: 0003 0001’ // left stick horizontal
+‘4: 0003 0000’ // left stick vertical
+‘1: 0003 0001’ // right dial
+‘0: 0003 0000’ // left dial
+
+// for buttons 0 - release, 1 - short press, 2 - holding
+
+‘2: 0001 0105’ // pause (2 - hold)
+‘2: 0001 0100’ // 5D up (2 - hold)
+‘2: 0001 0104’ // 5D down
+‘2: 0001 0102’ // 5D left
+‘2: 0001 0103’ // 5D right
+‘2: 0001 0101’ // 5D push
+‘2: 0001 0106’ // home button
+‘2: 0001 00d4’ // photo button
+‘2: 0001 0189’ // video button
+‘2: 0001 0069’ // C1 button
+‘2: 0001 006a’ // C2 button
